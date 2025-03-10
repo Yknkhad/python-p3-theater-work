@@ -61,9 +61,9 @@ session = Session()
 role = Role(character_name='Hamlet')  
 
 # Creating auditions
-audition1 = Audition(actor='Thomus Maina', location='New York', phone='1723466238', role=role)
-audition2 = Audition(actor='Sharon Talia', location='Los Angeles', phone='9876543210', role=role)  
-audition3 = Audition(actor='Ruth Ashley', location='Chicago', phone='6756348976', role=role)  
+audition1= Audition(actor='James Carter', location='Atlanta', phone='4567891234', role=role)
+audition2 = Audition(actor='Emily Zhang', location='San Francisco', phone='7891234567', role=role)
+audition3 = Audition(actor='Luis Fernandez', location='Miami', phone='3216549870', role=role)
 
 # Adding everything to the database
 session.add(role)  
